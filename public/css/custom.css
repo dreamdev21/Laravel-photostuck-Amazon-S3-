@@ -1,0 +1,107 @@
+@import url("card.css");
+body, html {
+    height: 100% !important;
+    min-height: 100% !important;
+}
+body{
+  font-family: 'PT Sans', sans-serif !important;
+}
+
+.intro-image{
+  /* The image used */
+  background-image: url("../img/intro.jpg");
+  /* Full height */
+  height: 100% !important;
+
+  /* Center and scale the image nicely */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 0.75;
+  filter: alpha(opacity=75);  For IE8 and earlier */
+}
+.navbar{
+  background-color: #fff !important;
+}
+.navbar li a{
+  color: #b5b8ba !important;
+}
+.navbar .dropdown-menu a {
+  color: #fff !important;
+}
+.home-navbar {
+  background-color: transparent !important;
+}
+
+
+.artwork-thumb{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.contributor-info{
+  border-right: 0.5px solid #eeeeee;
+  padding-top: 3%;
+}
+.contributor-info .avatar{
+  margin: 0 !important;
+}
+.thumb{
+  margin-top: 20px;
+}
+.single-image-preview {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+.download{
+  width: 100% !important;
+}
+.navbar-brand{
+  margin-top: 0 !important;
+  padding: 0 !important;
+}
+.home-navbar-brand img {
+  width: 70% !important;
+  height: 70% !important;
+}
+.navbar-static-top{
+  margin-bottom: 100px !important;
+
+}
+
+
+.topbar{
+  background-color: #eeeeee;
+  /*padding: 0.70%;*/
+  text-align: center;
+}
+.topbar-message{
+  color: black;
+  weight: bold;
+  font-family: 'PT Sans', sans-serif !important;
+  font-size: 12px;
+  letter-spacing: 1;
+}
+.img-thumbnail{
+  padding: 3% !important;
+}
+.artwork-name{
+  color: #7a7a7a;
+  font-weight: bolder;
+}
+.artwork-meta{
+  color: #bbb;
+  font-size: smaller;
+}
+#footer {
+  margin-top: 5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.dropdown-menu {
+    overflow: auto !important;
+}
